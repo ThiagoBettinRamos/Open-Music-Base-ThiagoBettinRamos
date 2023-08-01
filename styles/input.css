@@ -1,0 +1,17 @@
+#define-price{
+    appearance: none;
+    width: 43.345rem;
+    border-radius: var(--radius-1);
+    height: 0.5rem;
+    background-color: var(--color-grey-5);
+    
+
+}
+#define-price::-webkit-slider-thumb{
+    appearance: none;
+    background-color: var(--color-white-fixed);
+    border: 0.375rem var(--color-brand-1) solid;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,10 @@
+.button_toggle{
+    background-image: var(--background-button);
+    background-color: var(--color-grey-8);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 2.25rem;
+    height: 2.25rem;
+    border: transparent;
+    border-radius: var(--radius-1);
+}

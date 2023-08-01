@@ -1,0 +1,88 @@
+/* Desenvolva sua estilização aqui ... */
+.header{
+    width: var(--container);
+    max-width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.styles{
+    margin-top: 1.5rem;
+    margin-bottom: 3.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+.genre{
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    padding: 0.5rem;
+    margin: 0.625rem;
+    cursor: pointer;
+}
+.price{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.items-box{
+    margin-top: 3.75rem;
+    
+}
+.items-box > h2{
+    margin-bottom: 2.75rem;
+}
+li{
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+}
+
+.items{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    
+    
+}
+.image img{
+    width: 19.25rem;
+    height: 7.063rem;
+    max-height: 40%;
+    max-width: 100%;
+    border-radius: var(--radius-1);
+}
+.album-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-left: 1rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 0.75rem;
+}
+.info{
+    display: flex;
+    gap: 1.25rem;
+}
+.price-buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buy{
+    background-color: var(--color-grey-7);
+    height: 2rem;
+    width: 4.688rem;
+    border: transparent;
+    cursor: pointer;
+    border-radius: var(--radius-1);
+}
